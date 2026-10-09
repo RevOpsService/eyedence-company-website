@@ -1,0 +1,30 @@
+# Dependencies and generated output.
+node_modules/
+dist/
+.vercel/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Local environment and credentials; keep a shareable example.
+.env
+.env.*
+!.env.example
+
+# Package-manager debug logs.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local editor and operating-system files.
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local Nix/direnv environment.
+.direnv/
